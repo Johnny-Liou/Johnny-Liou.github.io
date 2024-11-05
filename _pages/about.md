@@ -2,21 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Assistant, <a href='https://www.iis.sinica.edu.tw/en/index.html' style='color:#003c8b;'>Academia Sinica</a>| B.S. Electrical Engineering, National Taiwan University
 
 profile:
   align: right
   image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>zwljohnny@gmail.com</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> zwljohnny@gmail.com </p>
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+<p style="text-align: justify;">
+  I received my Bachelor of Science degree in Electrical Engineering from National Taiwan University in June 2024. Currently, I am working as a research assistant at <a href="https://www.iis.sinica.edu.tw/en/index.html" style="color: #003c8b;">Academia Sinica</a>, Taiwan’s national academic institution, under the guidance of <a href="https://homepage.iis.sinica.edu.tw/pages/dyhong/index_en.html" style="color: #003c8b;">Dr. Ding-Yong Hong</a> and <a href="https://homepage.iis.sinica.edu.tw/pages/wuj/index_en.html" style="color: #003c8b;">Dr. Jan-Jan Wu</a>. I have had the privilege of interning at <a href="https://research.ibm.com/labs/almaden" style="color: #003c8b;">IBM Research Almaden</a>, where I was mentored by <a href="https://research.ibm.com/people/geoffrey-burr" style="color: #003c8b;">Dr. Geoffrey Burr</a> and <a href="https://research.ibm.com/people/sidney-tsai" style="color: #003c8b;">Dr. Hsin-Yu (Sidney) Tsai</a>, and working as an undergraduate researcher at <a href="https://access.ee.ntu.edu.tw/" style="color: #003c8b;">NTU Access Lab</a>, advised by <a href="https://www.ee.ntu.edu.tw/profile1.php?id=65" style="color: #003c8b;">Prof. An-Yeu (Andy) Wu</a>.
+</p>
+
+<p style="text-align: justify;">
+My research focuses on <strong>hardware/software co-design for AI accelerators, particularly in Computing-In-Memory (CIM) circuits and multicore inference accelerators.</strong> My work includes CIM architecture design, CIM-aware quantization, algorithms for dynamic resource allocation on multicore accelerators, and full-stack accelerator design for N:M structured pruning. I am also experienced in and interested in <strong>digital VLSI system design.</strong> I like to design new stuff and test unconventional ideas. In my free time, I like to play Go, basketball, and badminton. 
+</p>
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
