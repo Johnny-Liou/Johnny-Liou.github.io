@@ -7,16 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-<h2>Current Project</h2>
-    <ul>
-        <li>
-            <strong>Hardware Accelerator for Structured Pruning</strong>
-            <br>
-            Design FPGA-based hardware accelerator for NM pruning
-        </li>
-    </ul>
+<h3>Current Project</h3>
+<ul>
+    <li>Hardware Accelerator for Structured Pruning</li>
+    <li> Test </li>
+</ul>
 
-<h2>Past Projects</h2>
+<!-- <h2>Past Projects</h2>
     <ul>
         <li>Optimizing Compute Core Assignment for Dynamic Batch Inference</li>
         <li>
@@ -26,4 +23,4 @@ nav_order: 2
             </p>
         </li>
         <li>CIM-Aware Post-Training Quantization</li>
-    </ul>
+    </ul> -->
