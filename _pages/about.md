@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant, <a href='https://www.iis.sinica.edu.tw/en/index.html' style='color:#003c8b;'>Academia Sinica</a>| B.S. Electrical Engineering, National Taiwan University
+subtitle: Research Assistant, <a href='https://www.iis.sinica.edu.tw/en/index.html' style='color:#003c8b;'>Academia Sinica</a> | B.S. Electrical Engineering, National Taiwan University
 
 profile:
   align: right
