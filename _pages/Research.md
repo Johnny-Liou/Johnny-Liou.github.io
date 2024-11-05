@@ -10,7 +10,7 @@ nav_order: 2
 <h2>Current Project</h2>
 <ul>
     <li>
-        <strong>Hardware Accelerator for Structured Pruning</strong>
+        <strong style="font-size: 1.5em;">Hardware Accelerator for Structured Pruning</strong>
         <br>
         Design FPGA-based hardware accelerator for NM pruning
     </li>
