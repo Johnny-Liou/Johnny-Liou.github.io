@@ -6,7 +6,7 @@ subtitle: Research Assistant, <a href='https://www.iis.sinica.edu.tw/en/index.ht
 
 profile:
   align: right
-  image: me.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> zwljohnny@gmail.com </p>
