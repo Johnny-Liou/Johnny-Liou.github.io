@@ -14,8 +14,8 @@ nav_order: 1
 
 <h4><strong>Professional Experience</strong></h4>
 <ul>
-    <li> Research Assistant, Institute of Information Science, Academia sinica (Taiwan), Feb 2024 - </li>
-    <li> Intern, IBM Research - Almaden (CA, USA), Jun 2023 - Sep 2023 </li>
+    <li> <strong>Research Assistant</strong>, Institute of Information Science, Academia sinica (Taiwan), Feb 2024 - Present</li>
+    <li> <strong>Intern</strong>, IBM Research - Almaden (CA, USA), Jun 2023 - Sep 2023 </li>
 </ul>
 
 <h4><strong>Selected Courses</strong></h4>
