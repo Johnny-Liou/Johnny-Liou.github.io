@@ -13,7 +13,7 @@ nav_order: 4
         <ul>
             <li> Received second place among 157 teams in the largest nationwide integrated circuit design contest.</li>
         </ul>
-    <li><strong>Dean’s List Award</strong>, National Taiwan University</a>, Jan 2023</li>
+    <li><strong>Dean’s List Award</strong>, National Taiwan University, Jan 2023</li>
         <ul>
             <li> Awarded to <strong>top 5% NTUEE students</strong> for their academic excellences</li>
         </ul>
