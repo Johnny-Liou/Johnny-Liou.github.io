@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Assistant, <a href='https://www.iis.sinica.edu.tw/en/index.html' style='color:#003c8b;'>Academia Sinica</a> | B.S. Electrical Engineering, National Taiwan University
 
@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 <p style="text-align: justify;">
-My research focuses on <strong>hardware/software co-design for AI accelerators, particularly in Computing-In-Memory (CIM) circuits and multicore inference accelerators.</strong> My work includes CIM architecture design, CIM-aware quantization, algorithms for dynamic resource allocation on multicore accelerators, and full-stack accelerator design for N:M structured pruning. I am also experienced in and interested in <strong>digital VLSI system design.</strong> I like to design new stuff and test unconventional ideas. In my free time, I like to play Go, basketball, and badminton. 
+My research focuses on <strong>hardware/software co-design for AI accelerators, particularly in Computing-In-Memory (CIM) circuits and multicore inference accelerators.</strong> My work includes CIM architecture design, CIM-aware quantization, algorithms for dynamic resource allocation on multicore accelerators, and full-stack accelerator design for N:M structured pruning. I am also experienced in and interested in <strong>digital VLSI system design.</strong> I like to design new stuff and test unconventional ideas. In my free time, I like to ski, play basketball, and play Go. 
 </p>
 
 
