@@ -11,15 +11,20 @@ volume={},
 number={},
 pages={},
 series = {SAC '25},
+abstract={Modern AI inference accelerators offer high-performance and power-efficient computations for machine learning models. Most accelerators employ static inference to enhance performance, which requires models to be compiled with predetermined input batch sizes and intermediate tensor shapes. However, static inference can lead to program failures or inefficient execution when processing batched data of varying sizes, a scenario known as dynamic batch inference. This work addresses this challenge by focusing on the emerging multicore AI inference accelerators that offer flexible compute core assignment. We propose to dynamically partition the input batch data into smaller batches, and create multiple model instances to process each partition in parallel. The challenge lies in how to determine the optimal number of model instances, the proper batch size for each handling model, and the assignment of compute cores among the models, to minimize the inference time. To solve the problem, we construct an accurate profiling-based cost model and devise a dynamic programming algorithm to determine the best configuration. Experimental results indicate that our method achieves 3.05x higher throughput on average in multi-person pose estimation benchmarks, compared to the EdgeTPU inference strategy.},
 selected = {true}}
 
 @INPROCEEDINGS{IEDM,
   abbr = {IEDM},
-  author={Burr, G. W. and Tsai, H. and Simon, W. and Boybat, I. and Ambrogio, S. and Ho, C.-E. and Liou, Z.-W.  and Rasch, M. and Büchel, J. and Narayanan, P. and Gordon, T. and Jain, S. and Levin, T. M. and Hosokawa, K. and Le Gallo, M. and Smith, H. and Ishii, M. and Kohda, Y. and Chen, A. and Mackin, C. and Fasoli, A. and ElMaghraoui, K. and Muralidhar, R. and Okazaki, A. and Chen, C. -T. and Frank, M. M. and Lammie, C. and Vasilopoulos, A. and Friz, A. M. and Luquin, J. and Teehan, S. and Ahsan, I. and Sebastian, A. and Narayanan, V.},
+  author={Burr, G. W. and Tsai, H. and Simon, W. and Boybat, I. and Ambrogio, S. and Ho, C.-E. and Liou, Z.-W. and Rasch, M. and Büchel, J. and Narayanan, P. and Gordon, T. and Jain, S. and Levin, T. M. and Hosokawa, K. and Le Gallo, M. and Smith, H. and Ishii, M. and Kohda, Y. and Chen, A. and Mackin, C. and Fasoli, A. and ElMaghraoui, K. and Muralidhar, R. and Okazaki, A. and Chen, C. -T. and Frank, M. M. and Lammie, C. and Vasilopoulos, A. and Friz, A. M. and Luquin, J. and Teehan, S. and Ahsan, I. and Sebastian, A. and Narayanan, V.},
   booktitle={2023 International Electron Devices Meeting (IEDM)}, 
   title={Design of Analog-AI Hardware Accelerators for Transformer-based Language Models (Invited)}, 
   year={2023},
   volume={},
   number={},
   pages={1-4},
-  selected = {true}}
+  selected = {true},
+  keywords={Training;Semiconductor device modeling;Nonvolatile memory;Computational modeling;Transformers;Throughput;Energy efficiency;In-memory computing;Non-volatile memory;large language models;analog multiply-accumulate for DNN inference;analog AI;deep learning accelerator;system modeling},
+  abstract={Analog Non-Volatile Memory-based accelerators offer high-throughput and energy-efficient Multiply-Accumulate operations for the large Fully-Connected layers that dominate Transformer-based Large Language Models. We describe architectural, wafer-scale testing, chip-demo, and hardware-aware training efforts towards such accelerators, and quantify the unique raw-throughput and latency benefits of Fully- (rather than Partially-)Weight-Stationary systems.},
+  doi={10.1109/IEDM45741.2023.10413767}
+}
