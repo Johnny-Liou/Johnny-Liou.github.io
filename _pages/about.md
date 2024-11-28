@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 </p>
 
 <p style="text-align: justify;">
-My research focuses on <strong>hardware/software co-design for AI accelerators, particularly in Computing-In-Memory (CIM) circuits, multicore inference accelerators, and sparse accelerators.</strong> My work includes CIM architecture design, CIM-aware quantization, algorithms for dynamic resource allocation on multicore accelerators, and full-stack accelerator design for N:M structured pruning. I am also experienced in and interested in <strong>digital VLSI system design.</strong> I like to design new stuff and test unconventional ideas. In my free time, I like to ski, play basketball, and play Go. 
+My research focuses on <strong>hardware/software co-design for AI accelerators, including Computing-In-Memory (CIM) circuits, multicore inference accelerators, and sparse accelerators.</strong> My work includes CIM architecture design, CIM-aware quantization, algorithms for dynamic resource allocation on multicore accelerators, and full-stack accelerator design for N:M structured pruning. I am also experienced in and interested in <strong>digital VLSI system design.</strong> I like to design new stuff and test unconventional ideas. In my free time, I like to ski, play basketball, and play Go. 
 </p>
 
 
