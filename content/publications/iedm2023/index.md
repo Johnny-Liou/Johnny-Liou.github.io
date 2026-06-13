@@ -1,5 +1,5 @@
 ---
-title: 'Design of Analog-AI Hardware Accelerators for Transformer-based Language Models (Invited)'
+title: 'Design of Analog-AI Hardware Accelerators for Transformer-based Language Models'
 
 authors:
   - G. W. Burr

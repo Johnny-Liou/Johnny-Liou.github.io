@@ -38,9 +38,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am broadly interested in efficient computing for ML. Currently, my research focuses on ML systems, specifically optimizing inference serving for recurrent state-space models (Mamba, Gated Delta Networks).
+        I am broadly interested in efficient computing for ML. Currently, my research focuses on ML systems, specifically optimizing inference serving for recurrent state space models (Mamba2, Gated DeltaNet).
 
-        Previously, I explored scheduling and mapping for AI accelerators and in-memory computing—topics I remain passionate about and happy to discuss. My background includes serving as a research assistant at [Academia Sinica](https://www.sinica.edu.tw/en) under [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html), in collaboration with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/) at NTU. I also had the honor of interning at IBM Research (San Jose), working with [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai).
+        Previously, I worked on scheduling and mapping for AI accelerators and in-memory computing, topics I remain excited about and happy to discuss. My background includes serving as a research assistant at [Academia Sinica](https://www.sinica.edu.tw/en) under [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html), in collaboration with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/) at NTU. I also had the honor of interning at IBM Research (San Jose), working with [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai).
     design:
       columns: '1'
   # - block: collection
@@ -88,7 +88,8 @@ sections:
   #     filters:
   #       author: ''
   #       category: ''
-  #       tag: ''
+  #       # Only show blog posts tagged `News` (keeps the demo blog posts out of the feed).
+  #       tag: 'News'
   #       exclude_featured: false
   #       exclude_future: false
   #       exclude_past: false
