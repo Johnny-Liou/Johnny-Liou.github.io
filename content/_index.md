@@ -40,7 +40,9 @@ sections:
       text: |-
         I am broadly interested in efficient computing for ML. Currently, my research focuses on ML systems, specifically optimizing inference serving for recurrent state space models (Mamba2, Gated DeltaNet).
 
-        Previously, I worked on scheduling and mapping for AI accelerators and in-memory computing, topics I remain excited about and happy to discuss. My background includes serving as a research assistant at [Academia Sinica](https://www.sinica.edu.tw/en) under [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html), in collaboration with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/) at NTU. I also had the honor of interning at IBM Research (San Jose), working with [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai).
+        #### Previous Experience
+
+        Previously, I worked on scheduling and mapping for AI accelerators and in-memory computing, topics I remain excited about and happy to discuss. I interned at IBM Research (San Jose) with [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai). I also worked as a research assistant at Academia Sinica with [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html) and at NTU with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/).
     design:
       columns: '1'
   # - block: collection
