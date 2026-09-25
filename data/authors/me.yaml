@@ -15,10 +15,15 @@ status:
   icon: ""
 role: PhD student @ Princeton
 bio: |
-  #### 📢 Check out my new blog post! [ReplaySSM](https://dao-lab.ai/blog/2026/replayssm/)
+  #### Check out my new blog post: **[**ReplaySSM**](https://dao-lab.ai/blog/2026/replayssm/)**
 
-  I am a first-year PhD student at Princeton, advised by
-  [Prof. Tri Dao](https://tridao.me). 
+  🚀 Deployed in large-scale production system: [**GLM-5.3-Flash**](https://z.ai/blog/glm-built-its-inference-infrastructure) and [**Kimi-K3**](https://arxiv.org/pdf/2607.24653#page=24).  
+  🚀 Integrated into **vLLM** ([PR](https://github.com/vllm-project/vllm/pull/48018), [blog](https://vllm.ai/blog/2026-09-13-kimi-k3-performance-optimization#replayssm-reconstruct-the-kda-state-instead-of-storing-it)) and **[**SGLang**](https://lmsysorg.mintlify.app/cookbook/autoregressive/Qwen/Qwen3.8#hw=gb300&variant=default&quant=fp8&strategy=balanced&nodes=multi-4)**.
+
+  ---
+
+  Just started my second-year PhD at Princeton, advised by
+  [**Prof. Tri Dao**](https://tridao.me). 
   My research focuses on ML Systems.
 
   My official name is Ze-Wei Liou, but I also go by the name "Johnny."
