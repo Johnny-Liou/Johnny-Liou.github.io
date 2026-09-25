@@ -17,8 +17,8 @@ role: PhD student @ Princeton
 bio: |
   #### Check out my new blog post: **[**ReplaySSM**](https://dao-lab.ai/blog/2026/replayssm/)**
 
-  🚀 Deployed in large-scale production system: [**GLM-5.3-Flash**](https://z.ai/blog/glm-built-its-inference-infrastructure) and [**Kimi-K3**](https://arxiv.org/pdf/2607.24653#page=24).  
-  🚀 Integrated into **vLLM** ([PR](https://github.com/vllm-project/vllm/pull/48018), [blog](https://vllm.ai/blog/2026-09-13-kimi-k3-performance-optimization#replayssm-reconstruct-the-kda-state-instead-of-storing-it)) and **[**SGLang**](https://lmsysorg.mintlify.app/cookbook/autoregressive/Qwen/Qwen3.8#hw=gb300&variant=default&quant=fp8&strategy=balanced&nodes=multi-4)**.
+  🚀 Deployed in large-scale production system: [**GLM-5.3-Flash**](https://z.ai/blog/glm-built-its-inference-infrastructure#:~:text=the%20LM%20Head%2C-,ReplaySSM,-%2C%20W8A8%20quantization%2C%20mixed) and [**Kimi-K3**](https://arxiv.org/pdf/2607.24653#page=24).  
+  🚀 Integrated into **vLLM** ([PR](https://github.com/vllm-project/vllm/pull/48018), [blog](https://vllm.ai/blog/2026-09-13-kimi-k3-performance-optimization#replayssm-reconstruct-the-kda-state-instead-of-storing-it)) and **[**SGLang**](https://lmsysorg.mintlify.app/cookbook/autoregressive/Qwen/Qwen3.8#replayssm)**.
 
   ---
 
@@ -45,8 +45,9 @@ links:
   #   url: https://github.com/example
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/example/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=example
+  - icon: academicons/google-scholar
+    url: 'https://scholar.google.com/citations?user=izYchkEAAAAJ&hl=en'
+    label: Google Scholar
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0002-1825-0097
 
