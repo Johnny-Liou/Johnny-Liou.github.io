@@ -38,11 +38,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am broadly interested in efficient computing for ML. Currently, my research focuses on ML systems, specifically optimizing inference serving for recurrent state space models (Mamba-2, Gated DeltaNet).
-
-        #### Past Experience
-
-        Previously, I worked on scheduling and mapping for AI accelerators and in-memory computing, topics I remain excited about and happy to discuss. I interned at IBM Research (San Jose) under [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai). I also worked as a research assistant at Academia Sinica with [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html) and at NTU with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/).
+        I am interested in efficient algorithms and systems for ML, specifically inference for linear attention (e.g., Mamba-2, GDN, KDA) and hybrid models.
     design:
       columns: '1'
   # - block: collection
@@ -67,6 +63,19 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: markdown
+    id: experience
+    content:
+      title: Experience
+      subtitle: ''
+      text: |-
+        Before Princeton, I worked on scheduling and mapping for AI accelerators and in-memory computing, topics I remain excited about and happy to discuss.
+
+        - **Research Assistant**, Academia Sinica<br><span style="white-space:nowrap;opacity:.65">Feb 2024 – Mar 2025</span> · with [Dr. Ding-Yong Hong](https://homepage.iis.sinica.edu.tw/pages/dyhong/vita_en.html)
+        - **Research Intern**, IBM Research (San Jose)<br><span style="white-space:nowrap;opacity:.65">Jun – Sep 2023</span> · with [Dr. Geoffrey Burr](https://research.ibm.com/people/geoffrey-burr) and [Dr. Sidney Tsai](https://research.ibm.com/people/sidney-tsai)
+        - **Research Assistant**, National Taiwan University<br><span style="white-space:nowrap;opacity:.65">Sep 2022 – Jun 2023</span> · with [Prof. An-Yeu Wu](https://access.ee.ntu.edu.tw/)
+    design:
+      columns: '1'
   # - block: collection
   #   id: talks
   #   content:

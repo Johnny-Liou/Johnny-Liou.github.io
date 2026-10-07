@@ -8,9 +8,7 @@ name:
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: ''
-postnominals:
-  - PhD
-  - MIEEE
+postnominals: []
 status:
   icon: ""
 role: PhD student @ Princeton
@@ -22,7 +20,7 @@ bio: |
 
   ---
 
-  Just started my second-year PhD at Princeton, advised by
+  I just started the second year of my PhD at Princeton, advised by
   [**Prof. Tri Dao**](https://tridao.me). 
   My research focuses on ML Systems.
 
@@ -74,12 +72,10 @@ education:
   #   end: 2015-05-31
   - degree: PhD ECE
     institution: Princeton University
-    start: 2025-09 ~
-    end:
+    year: Sep 2025 – present
   - degree: BS EE
     institution: National Taiwan University
-    start: 2020-09
-    end: 2024-06
+    year: Sep 2020 – Jun 2024
 
 experience:
   - role: Senior AI Research Scientist

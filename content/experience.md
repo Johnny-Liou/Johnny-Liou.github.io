@@ -2,6 +2,8 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
+# Unpublished: still shows the template's sample data (Meta AI, OpenAI, skills, awards)
+draft: true
 
 design:
   spacing: '5rem'

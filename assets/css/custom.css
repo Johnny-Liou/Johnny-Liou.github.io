@@ -1,6 +1,20 @@
-/* Justify text in the bio and research description blocks */
+/* Left-align text in the bio and research description blocks */
 .prose p {
-  text-align: justify;
+  text-align: left;
+}
+
+/* Tighten the vertical gaps between homepage sections */
+.hbb-section {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+#publications .mt-16 {
+  margin-top: 1.5rem;
+}
+
+.page-footer footer {
+  margin-top: 3rem;
 }
 
 /* Year divider between publication groups */
