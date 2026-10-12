@@ -1,4 +1,10 @@
-{{/* Display author list. */}}
+{{/* Display author list.
+
+  Front matter options on the publication page:
+    authors:                 list of author names (`me` = site owner, rendered bold)
+    authors_collapse_after:  (optional) show only the first N authors, then an inline
+                             "and K more authors" toggle that expands to the full list.
+*/}}
 
 {{- $authors := .Params.authors -}}
 
@@ -7,12 +13,24 @@
     {{- $authors = slice $authors -}}
   {{- end -}}
 
+  {{- $n := len $authors -}}
+  {{- $cut := int ($.Params.authors_collapse_after | default 0) -}}
+  {{- $collapse := and (gt $cut 0) (gt $n $cut) -}}
+
   {{ range $index, $raw := $authors }}
     {{- $slug := $raw | urlize -}}
     {{- $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" $raw) -}}
     {{- $termPage := site.GetPage (printf "/authors/%s" $slug) -}}
     {{- $display := $profile.title | default $raw -}}
     {{- $highlight_name := $profile.is_owner | default false -}}
+
+    {{- if and $collapse (eq $index $cut) -}}
+      <span class="more-authors-toggle">, and
+        <button type="button" class="more-authors-btn"
+          title="Show all {{ $n }} authors"
+          onclick="var t = this.closest('.more-authors-toggle'); var l = t.nextElementSibling; t.hidden = true; l.hidden = false;"
+        >{{ sub $n $cut }} more authors</button></span><span class="more-authors-list" hidden>
+    {{- end -}}
 
     {{- if gt $index 0 }}, {{ end -}}
     <span {{ if $highlight_name }}class="font-bold"{{end}}>
@@ -52,6 +70,12 @@
           </div>
         </span>
       {{- end -}}
+    {{- end -}}
+
+    {{- if and $collapse (eq $index (sub $n 1)) }}
+        <button type="button" class="more-authors-btn fewer-authors-btn"
+          onclick="var l = this.closest('.more-authors-list'); l.hidden = true; l.previousElementSibling.hidden = false;"
+        >show fewer</button></span>
     {{- end -}}
   {{- end -}}
 {{- end -}}

@@ -67,3 +67,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Personal CV sources and builds (not published on the site)
+CV/

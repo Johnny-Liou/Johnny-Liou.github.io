@@ -2,10 +2,10 @@
 title: 'Massive Spikes in LLMs are Bias Vectors: Mechanistic Uncovering and Spike-Free Quantization'
 
 authors:
-  - Y.-C. Chen
-  - C. P. Lee
+  - Yung-Chin Chen
+  - Chung Peng Lee
   - me
-  - N. Verma
+  - Naveen Verma
 
 date: '2026-06-01T00:00:00Z'
 publishDate: '2026-06-01T00:00:00Z'

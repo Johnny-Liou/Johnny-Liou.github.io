@@ -3,7 +3,7 @@ title: 'Optimizing Compute Core Assignment for Dynamic Batch Inference in AI Inf
 
 authors:
   - me
-  - D.-Y. Hong
+  - Ding-Yong Hong
 
 date: '2025-03-01T00:00:00Z'
 publishDate: '2025-03-01T00:00:00Z'

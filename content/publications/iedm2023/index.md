@@ -9,7 +9,35 @@ authors:
   - S. Ambrogio
   - C.-E. Ho
   - me
-  - et al.
+  - M. Rasch
+  - J. Büchel
+  - P. Narayanan
+  - T. Gordon
+  - S. Jain
+  - T. M. Levin
+  - K. Hosokawa
+  - M. Le Gallo
+  - H. Smith
+  - M. Ishii
+  - Y. Kohda
+  - A. Chen
+  - C. Mackin
+  - A. Fasoli
+  - K. ElMaghraoui
+  - R. Muralidhar
+  - A. Okazaki
+  - C.-T. Chen
+  - M. M. Frank
+  - C. Lammie
+  - A. Vasilopoulos
+  - A. M. Friz
+  - J. Luquin
+  - S. Teehan
+  - I. Ahsan
+  - A. Sebastian
+  - V. Narayanan
+# Show the first 7 authors (through me); the rest expand inline via "N more authors"
+authors_collapse_after: 7
 
 date: '2023-12-01T00:00:00Z'
 publishDate: '2023-12-01T00:00:00Z'

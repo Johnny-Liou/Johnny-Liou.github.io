@@ -3,12 +3,12 @@ title: 'ReplaySSM: Cache SSM Inputs, Not State'
 
 authors:
   - me
-  - H. Nover
-  - A. Naik
-  - A. Skliar
-  - I. Shovkun
-  - I. Shahaf
-  - T. Dao
+  - Harris Nover
+  - Amey Naik
+  - Andrii Skliar
+  - Igor Shovkun
+  - Ido Shahaf
+  - Tri Dao
 
 date: '2026-10-09T00:00:00Z'
 publishDate: '2026-10-09T00:00:00Z'
