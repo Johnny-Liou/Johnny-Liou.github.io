@@ -11,10 +11,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
-      # Show a call-to-action button under your biography? (optional)
+      # Call-to-action button under the biography (optional; CV is linked from the menu instead)
       # button:
       #   text: Download CV
-      #   url: uploads/resume.pdf
+      #   url: uploads/cv.pdf
       headings:
         about: ''
         education: ''
