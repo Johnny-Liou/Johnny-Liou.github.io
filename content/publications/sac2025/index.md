@@ -22,10 +22,6 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    doi: 10.1145/3672608.3707809
-
 links:
   - type: pdf
     label: Paper

@@ -13,14 +13,15 @@ status:
   icon: ""
 role: PhD student @ Princeton
 bio: |
-  #### Check out my new blog post: **[**ReplaySSM**](https://dao-lab.ai/blog/2026/replayssm/)**
+  #### Check out my recent work on hybrid-model acceleration: **[ReplaySSM](https://arxiv.org/pdf/2610.13778)**
 
-  🚀 Deployed in large-scale production system: [**GLM-5.3-Flash**](https://z.ai/blog/glm-built-its-inference-infrastructure#:~:text=the%20LM%20Head%2C-,ReplaySSM,-%2C%20W8A8%20quantization%2C%20mixed) and [**Kimi-K3**](https://arxiv.org/pdf/2607.24653#page=24).  
-  🚀 Integrated into **vLLM** ([PR](https://github.com/vllm-project/vllm/pull/48018), [blog](https://vllm.ai/blog/2026-09-13-kimi-k3-performance-optimization#replayssm-reconstruct-the-kda-state-instead-of-storing-it)) and **[**SGLang**](https://lmsysorg.mintlify.app/cookbook/autoregressive/Qwen/Qwen3.8#replayssm)**.
+  🚀 Deployed in production: [**GLM-5.3-Flash**](https://z.ai/blog/glm-built-its-inference-infrastructure#:~:text=the%20LM%20Head%2C-,ReplaySSM,-%2C%20W8A8%20quantization%2C%20mixed) and [**Kimi-K3**](https://arxiv.org/pdf/2607.24653#page=24)  
+  🔧 Integrated into **vLLM**, **TensorRT-LLM**, **FlashInfer**, and **SGLang**  
+  📝 Featured on the [**NVIDIA Technical Blog**](https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/)
 
   ---
 
-  I just started the second year of my PhD at Princeton, advised by
+  I started the second year of my PhD at Princeton, advised by
   [**Prof. Tri Dao**](https://tridao.me). 
   My research focuses on ML Systems.
 

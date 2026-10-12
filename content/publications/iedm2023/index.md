@@ -28,10 +28,6 @@ tags:
 
 featured: false
 
-hugoblox:
-  ids:
-    doi: 10.1109/IEDM45741.2023.10413767
-
 links:
   - type: pdf
     label: Paper
