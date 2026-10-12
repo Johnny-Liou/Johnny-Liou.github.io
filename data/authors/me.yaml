@@ -46,6 +46,12 @@ links:
   - icon: academicons/google-scholar
     url: 'https://scholar.google.com/citations?user=izYchkEAAAAJ&hl=en'
     label: Google Scholar
+  - icon: brands/github
+    url: https://github.com/Johnny-Liou
+    label: GitHub
+  - icon: brands/x
+    url: https://x.com/zwljohnny
+    label: X
   # - icon: academicons/orcid
   #   url: https://orcid.org/0000-0002-1825-0097
 
@@ -76,53 +82,3 @@ education:
   - degree: BS EE
     institution: National Taiwan University
     year: Sep 2020 – Jun 2024
-
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy

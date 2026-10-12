@@ -16,7 +16,8 @@
 
     {{- if gt $index 0 }}, {{ end -}}
     <span {{ if $highlight_name }}class="font-bold"{{end}}>
-      {{- if and $termPage (not $highlight_name) -}}
+      {{- /* Only link co-authors when their profile page is actually rendered (avoids empty href="" links). */ -}}
+      {{- if and $termPage (not $highlight_name) $termPage.RelPermalink -}}
         <a href="{{ $termPage.RelPermalink }}">{{ $display }}</a>
       {{- else -}}
         {{ $display }}

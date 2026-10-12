@@ -55,12 +55,23 @@ sections:
   - block: collection
     id: publications
     content:
-      title: Publications
+      title: Selected Publications
       text: ''
       filters:
         folders:
           - publications
-        exclude_featured: false
+        featured_only: true
+    design:
+      view: citation
+  - block: collection
+    id: other-publications
+    content:
+      title: Other Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: true
     design:
       view: citation
   - block: markdown
