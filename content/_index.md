@@ -14,7 +14,7 @@ sections:
       # Call-to-action button under the biography (optional; CV is linked from the menu instead)
       # button:
       #   text: Download CV
-      #   url: uploads/cv.pdf
+      #   url: uploads/Ze-Wei_Liou_CV.pdf
       headings:
         about: ''
         education: ''

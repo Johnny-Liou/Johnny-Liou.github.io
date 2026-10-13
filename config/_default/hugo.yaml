@@ -63,3 +63,6 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+# Keep letter case in URLs (e.g. /uploads/Ze-Wei_Liou_CV.pdf); GitHub Pages is case-sensitive
+disablePathToLower: true
