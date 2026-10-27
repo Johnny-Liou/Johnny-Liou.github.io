@@ -7,13 +7,13 @@ authors:
   - me
   - Naveen Verma
 
-date: '2026-06-01T00:00:00Z'
-publishDate: '2026-06-01T00:00:00Z'
+date: '2026-10-01T00:00:00Z'
+publishDate: '2026-10-01T00:00:00Z'
 
-publication_types: ['article']
+publication_types: ['paper-conference']
 
-publication: "arXiv preprint arXiv:2606.02288"
-publication_short: "arXiv 2026"
+publication: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+publication_short: "Findings of EMNLP 2026"
 
 abstract: "Massive activation spikes in Large Language Models (LLMs) severely degrade quantization by stretching dynamic ranges. While prior hypotheses characterize these as high-level scalar biases, we argue that they are merely the scalar intermediates of rigid, structural vector biases in the spike-carrying tokens. We show that these tokens converge to constant vectors after normalization that drive the attention sink and value-state drain mechanisms. We geometrically substantiate this by analyzing the coordination of projection weights: $W_K$ contrastively amplifies the vector, $W_Q$ aligns semantic tokens toward it, and $W_V$ projects it into the spectral null-space. Furthermore, we reveal that the model actively preserves these structural biases against Rotary Positional Embedding (RoPE) perturbations by localizing them in zones of rotational stability utilizing low-frequency bands and coherent channel pairs. Leveraging this, we propose INSERTQUANT, a post-training quantization (PTQ) framework that clamps spikes and restores their function via pre-computed template vectors."
 
@@ -27,6 +27,6 @@ featured: false
 links:
   - type: pdf
     label: Paper
-    url: https://arxiv.org/pdf/2606.02288
+    url: https://aclanthology.org/2026.findings-emnlp.1382.pdf
 slides: ""
 ---
